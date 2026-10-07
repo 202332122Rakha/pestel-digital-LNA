@@ -1,0 +1,6 @@
+{
+  "name": "PLN Digital LNA - Learning Need Analysis & Competency Development",
+  "description": "Sistem prototipe Learning Need Analysis untuk Sub Bidang Pengelolaan Pembelajaran, Asesmen dan Sertifikasi Berbasis Digital, Bidang Perencanaan, PLN Corporate University.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

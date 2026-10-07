@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --pln-green: #00843D;
+    --pln-dark-green: #006B32;
+    --pln-accent-blue: #0077B6;
+    --pln-bg: #F5F7F9;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #F5F7F9;
+    color: #1F2937;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Print utility styles */
+@media print {
+  aside, header, .no-print, button {
+    display: none !important;
+  }
+  body {
+    background-color: #ffffff !important;
+  }
+  main {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    background: white !important;
+  }
+  .print-page {
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important;
+  }
+}
